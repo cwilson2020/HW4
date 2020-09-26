@@ -1,12 +1,12 @@
 
-public class test {
+public class run {
 
-	public test() {
+	public run() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public static void main(String[] args) {
-		SalesPeople person1 = new SalesPeople("Teresea", "Widgets", 200);
+		SalesPeople person1 = new SalesPeople("Teresa", "Widgets", 200);
 		SalesPeople person2 = new SalesPeople("Frank", "Widgets", 250);
 		SalesPeople person3 = new SalesPeople("Chris", "Gifts", 10);
 		SalesPeople person4 = new SalesPeople("Angie", "Appliances", 675);
@@ -26,7 +26,7 @@ public class test {
 		
 		while (pi.hasNext()) {
 		SalesPeople tempPerson = pi.next();
-		System.out.println(tempPerson.getName() + tempPerson.getTeam() + String.valueOf(tempPerson.getSalesTotals()));
+		System.out.println("Name:" + tempPerson.getName() + " \t Team:" +  tempPerson.getTeam() + "\t\tSales Totals:" + String.valueOf(tempPerson.getSalesTotals()));
 		}
 	}
 
